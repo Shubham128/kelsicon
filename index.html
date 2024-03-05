@@ -70,7 +70,22 @@
 	.demo-1 .main-title {
 		font-size: 3em;
 	}
+  
 }
+.main-title {
+            color: cyan;
+            text-align: center; /* Center the title */
+            margin-top: 50px; /* Add some space from the top */
+            font-size: 36px; /* Set font size for large screens */
+        }
+
+@media (max-width: 600px) {
+            .main-title {
+                font-size: 24px; /* Adjust font size for smaller screens */
+                margin-top: 20px; /* Reduce top margin for smaller screens */
+            }
+        }    
+
 </style>
 </head>
 
@@ -186,7 +201,7 @@
             </div>
 
           </div>
-          <div class="col-md-6 d-flex align-items-stretch mt-4">
+          <!-- <div class="col-md-6 d-flex align-items-stretch mt-4">
             <div class="card" style='background-image: url("assets/img/our-values-3.jpg");'>
               <div class="card-body">
                 <h5 class="card-title"><a href="">Our Vision</a></h5>
@@ -203,7 +218,7 @@
                 <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i> Read More</a></div>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
 
       </div>
@@ -330,19 +345,20 @@
                   <div class="email">
                       <i class="bi bi-envelope"></i>
                       <h4>Email:</h4>
-                      <p>Info@kelsicon.com</p>
+                      <p>kelsicontechno@gmail.com</p>
                   </div>
               </div>
           </div>
           <div class="col-lg-4">
-              <div class="info">
-                  <div class="address">
-                      <i class="bi bi-geo-alt"></i>
-                      <h4>Location:</h4>
-                      <p>Varanasi (U.P.),India</p>
-                  </div>
-              </div>
-          </div>
+            <div class="info">
+                <div class="email">
+                  <i class="bi bi-geo-alt"></i>
+                  <h4>Location:</h4>
+                  <p>Varanasi (U.P.),India</p>
+                </div>
+            </div>
+        </div>
+          
       </div>
       
 
@@ -383,7 +399,7 @@
         &copy; Copyright <strong><span>Kelsicon</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
-        
+      
         Designed by <a href="">Kelsicon</a>
       </div>
     </div>
